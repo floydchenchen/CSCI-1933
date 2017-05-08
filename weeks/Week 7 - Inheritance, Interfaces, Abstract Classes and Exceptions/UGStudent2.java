@@ -19,11 +19,13 @@ public class UGStudent2 extends Student2 {
         gpa = grades;
     }
 
+    //overRIDE print() from Student2 Class
     public void print() {
         System.out.println("printing from UGStudent2");
         super.print();
     }
-
+   
+    //overRIDE print(String s) from Person2 => Student2   
     public void print(String whatToPrint) {
         System.out.println("printing from UGStudent2 " + whatToPrint);
     }
