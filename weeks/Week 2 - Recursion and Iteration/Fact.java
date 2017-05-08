@@ -36,7 +36,7 @@ public class Fact {
         else return factIter(n, count + 1, (count + 1) * partial);
     }
 
-    // iterative agorithm version using Java iteration construct
+    // iterative (or tail recursive) agorithm version using Java iteration construct
 
     public static int iCFactorial(int n) {
         int count = 0, partial = 1;
