@@ -20,8 +20,8 @@ public class BSearch1 {
           if (target == a[middle])
             return middle;  // found
           else if (target < a[middle])
-                 last =  middle - 1;
-               else first = middle + 1;
+                 last =  middle - 1; //middle-1而不是middle，因为middle 已经被check过
+               else first = middle + 1;//middle+1而不是middle，因为middle 已经被check过
         }
         return -1;
     }  // search method
