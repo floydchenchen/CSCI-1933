@@ -14,7 +14,7 @@
 
 public class IntArray {
 
-    // make and return an identical but separate copy of an integer array
+    // make and return an identical but separate copy of an integer array, or DEEP COPY
     public static int[] clone(int[] original) {
         int copy[] = new int[original.length];
         for (int i = 0; i < copy.length; i++)
