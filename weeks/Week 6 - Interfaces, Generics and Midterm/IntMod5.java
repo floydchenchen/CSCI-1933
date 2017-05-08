@@ -7,7 +7,7 @@ public class IntMod5 implements IntMod {
 	
 	public IntMod5(int n){
 		value = n%5;
-		while(value<0){
+		while(value<0){//这一步很重要！
 			value+=5;
 		}
 	}
