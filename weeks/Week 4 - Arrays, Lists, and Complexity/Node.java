@@ -49,13 +49,14 @@ public class Node {
 
     // method to add a new Node to the list such that larger data
     // items are at the front of the list, but does it work?
+    
 
     public static void addInOrder(Node newItem, Node list) {
         if (list == null) {
           newItem.setNext(null);
           list = newItem; 
         }
-        else if (newItem.getData() > list.getData()) {
+        else if (newItem.getData() > list.getData()) {//这个部分有问题，因为list = newItem这个list是一个Local variable，并没有global variable的指针，global variable还是指向原来的list object的。
           newItem.setNext(list);
           list = newItem;
         }
