@@ -18,7 +18,7 @@ public class Fact {
         else return n * rFactorial(n - 1);
     }
 
-    // iterative algorithm version with helper method
+    // iterative (or tail recursive) algorithm version with helper method
     public static int iFactorial(int n) {
         // start state
         // count = 0
