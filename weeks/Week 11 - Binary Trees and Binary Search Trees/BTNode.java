@@ -139,7 +139,7 @@ public class BTNode {
             return right.getRightMostDataR();
     }
 
-    public Object getRightMostData() {
+    public Object getRightMostDataI() {
       // iterative getRightMostData method
       // returns the right most Object found under this node
 
