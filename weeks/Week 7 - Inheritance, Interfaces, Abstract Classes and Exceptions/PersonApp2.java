@@ -31,14 +31,14 @@ public class PersonApp2 {
 
        
         System.out.println("\nDisplaying GradStudent2 object as GradStudent2");
-        gS.print("GradStudent2 object is variable gS");
+        gS.print("GradStudent2 object is variable gS");//inherit the method from Person2
         gS.print();
         gS.printTwice("Twice");
         gS.printThree();
 
         System.out.println("\nDisplaying GradStudent2 object as Student2");
         genericStudent.print("GradStudent2 object is variable genericStudent");
-        genericStudent.print(); 
+        genericStudent.print(); //from GradStudent2
         genericStudent.printTwice("Twice");
         genericStudent.printThree();
 
