@@ -19,9 +19,9 @@ public class GenericNodeApp2 {
             start.addInOrder2(new GenericNode<Double> ((double) i, null), start);
         }
 
-        System.out.println("\nUsing non-static print from header:");
+        System.out.println("\nUsing non-static print from header:");//会print出header的null
         start.printFrom();
-        System.out.println("\nUsing static printList from header:");
+        System.out.println("\nUsing static printList from header:");//不会print出header的null
         GenericNode.printList(start);
 
         System.out.println();
