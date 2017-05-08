@@ -22,8 +22,8 @@ public class BSearch2 {
           if (target == a[middle])
             return middle;  // found
           else if (target < a[middle]) 
-                 return search(a, first, middle - 1, target);
-               else return search(a, middle + 1, last, target);
+                 return search(a, first, middle - 1, target););// it is important to be middle-1, cuz a[middle] is already checked
+               else return search(a, middle + 1, last, target);// it is important to be middle+1, cuz a[middle] is already checked
         }
     }  // search method
 
