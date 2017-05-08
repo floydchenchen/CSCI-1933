@@ -1,6 +1,6 @@
 // EnumSwitch.java
 // Mutually exclusive String cases implemented with a *switch* 
-// Vales for the switch expression can be integer, String, or enum
+// Values for the switch expression can be integer, String, or enum
 // Here they are enum
 
 public class EnumSwitch {
