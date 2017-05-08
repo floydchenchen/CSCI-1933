@@ -56,7 +56,8 @@ public class Node {
           newItem.setNext(null);
           list = newItem; 
         }
-        else if (newItem.getData() > list.getData()) {//这个部分有问题，因为list = newItem这个list是一个Local variable，并没有global variable的指针，global variable还是指向原来的list object的。
+        else if (newItem.getData() > list.getData()) {
+ //这个部分有问题，因为list = newItem这个list是一个Local variable，并没有global variable的指针，global variable还是指向原来的list object的。
           newItem.setNext(list);
           list = newItem;
         }
